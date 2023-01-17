@@ -90,3 +90,8 @@ Esperamos de você duas entregas: o código no GitHub e um vídeo explicativo no
 ### Prazo limite de entrega
 
 O pull request com sua solução do desafio deve ser feito até a data especificada no corpo do email que você recebeu com a descrição do desafio.
+
+## Instalação
+npm install - Nas pastas do backend e frontend para instalar as dependencias 
+npm run dev - Executar o backend
+npm start - Executar o front
