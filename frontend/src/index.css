@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/* Grid View */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+    
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid gray;
+  font-size: 1.1rem;
+}
+
+button {
+  /* background-color: #B4B121; */
+  background-color: #127D99;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+span a {
+  text-decoration: none;
+  color: rgb(80, 98, 255);
+}
+
+
+
+
+.edit-button{
+  background-color:#B4B121;
+}

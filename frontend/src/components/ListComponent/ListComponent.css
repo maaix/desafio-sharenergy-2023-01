@@ -1,0 +1,67 @@
+.list-menber{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 245, 245);
+    position:relative;  
+    height: 15%;
+    width: 100%;
+    gap: 10%;
+    
+    
+    
+}
+img.profile-photo{
+    height: 100%;
+    width: 7%;
+    border-radius: 100%;
+}
+div.data-label{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    position: relative;
+    width: 30%;
+    /* background-color: #4de6f7; */
+    height: 100%;
+
+}
+div.data-label p{
+    color: #B4B121;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+}
+div.data-label span{
+    cursor: pointer;
+}
+
+div.data-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    /* background-color: #383830; */
+    width: 85%;
+    height: calc(100%);
+    
+}
+.list-button {
+    width: 100%;
+    
+}
+.btn-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    /* background-color: red; */
+    justify-content: center;
+    gap: 15%;
+    min-width: 150px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+  }

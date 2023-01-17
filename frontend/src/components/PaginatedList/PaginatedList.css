@@ -1,0 +1,16 @@
+button.previous_btn :disabled {
+    background-color: gray !important;
+
+} 
+.content{
+    width: 100%;
+    background-color: rgb(215, 215, 215);
+   
+}
+ul{
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
