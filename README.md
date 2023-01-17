@@ -99,3 +99,4 @@ npm start (sobe o front end)
 
 ## link do video
 https://clipchamp.com/watch/yOROQCOesFg
+https://clipchamp.com/watch/yOROQCOesFg
